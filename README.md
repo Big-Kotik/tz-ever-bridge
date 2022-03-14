@@ -1,9 +1,22 @@
 # tz-ever-bridge
 
-[front-end](https://github.com/Big-Kotik/tzs-ever-bridge-frontend)
+## Links on repositories
 
-[Everscale contract](https://github.com/Big-Kotik/tzs-ever-bridge-sol-contract)
+- [Front-end code](https://github.com/Big-Kotik/tzs-ever-bridge-frontend)
 
-[Tezos contract](https://github.com/Big-Kotik/tzs-ever-bridge-ligo-contract)
+- [Everscale contracts](https://github.com/Big-Kotik/tzs-ever-bridge-sol-contract)
 
-[Relay server](https://github.com/Big-Kotik/tzs-ever-bridge-relay)
+- [Tezos contracts](https://github.com/Big-Kotik/tzs-ever-bridge-ligo-contract)
+
+- [Relay server](https://github.com/Big-Kotik/tzs-ever-bridge-relay)
+
+## Project Architecture
+
+- Network overview
+![Archtecture](./img/architecture.png)
+
+- Sending token to Everscale
+![Sending token to Everscale](./img/to-everscale.png)
+
+- Sending token to Tezos
+![Sending token to Tezos](./img/to-tezos.png)
