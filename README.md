@@ -1,14 +1,14 @@
-# tz-ever-bridge
+# Tezos-Everscale Bridge
 
-## Links on repositories
+## Project structure and repositories 
 
-- [Front-end code](https://github.com/Big-Kotik/tzs-ever-bridge-frontend)
+- [Relay server](https://github.com/Big-Kotik/tzs-ever-bridge-relay) monitors tezos wrap and everscale unwrap transactions. After receiving a transaction, the relay server validates it and sends the approving transaction to another blockchain;
 
-- [Everscale contracts](https://github.com/Big-Kotik/tzs-ever-bridge-sol-contract)
+- [Tezos contracts](https://github.com/Big-Kotik/tzs-ever-bridge-ligo-contract). Repository of all tezos side smart contracts;
 
-- [Tezos contracts](https://github.com/Big-Kotik/tzs-ever-bridge-ligo-contract)
+- [Everscale contracts](https://github.com/Big-Kotik/tzs-ever-bridge-sol-contract). Repository of all everscale side smart contracts;
 
-- [Relay server](https://github.com/Big-Kotik/tzs-ever-bridge-relay)
+- [Front-end code](https://github.com/Big-Kotik/tzs-ever-bridge-frontend);
 
 ## Project Architecture
 
